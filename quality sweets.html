@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Quality Sweets</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #b22222;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 1rem 2rem;
+    }
+    h2 {
+      color: #b22222;
+      border-bottom: 2px solid #f0c674;
+      padding-bottom: 0.3rem;
+      margin-top: 1.5rem;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px dashed #ccc;
+    }
+    .item-name {
+      font-weight: 500;
+    }
+    .item-price {
+      font-weight: 600;
+      color: #b22222;
+    }
+    footer {
+      background: #b22222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      .menu-section {
+        padding: 1rem;
+      }
+      .item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .item-price {
+        margin-top: 0.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Welcome to Quality Sweets
+  </header>
+
+  <div class="menu-section">
+    <h2>Menu</h2>
+    <div class="item"><span class="item-name">स्पेशल समोसा</span><span class="item-price">₹23 नग</span></div>
+    <div class="item"><span class="item-name">सामोसा चाट</span><span class="item-price">₹50 प्लेट</span></div>
+    <div class="item"><span class="item-name">कचोरी</span><span class="item-price">₹25 नग</span></div>
+    <div class="item"><span class="item-name">कचोरी चाट</span><span class="item-price">₹50 प्लेट</span></div>
+    <div class="item"><span class="item-name">वडा पाव</span><span class="item-price">₹20 नग</span></div>
+    <div class="item"><span class="item-name">बटाटा वडा</span><span class="item-price">₹18 नग</span></div>
+    <div class="item"><span class="item-name">जिलबी</span><span class="item-price">₹50 प्लेट</span></div>
+    <div class="item"><span class="item-name">ढोकळा</span><span class="item-price">₹42 प्लेट</span></div>
+    <div class="item"><span class="item-name">शेंगदाणा चिकी</span><span class="item-price">₹40 प्लेट</span></div>
+    <div class="item"><span class="item-name">सांडविच</span><span class="item-price">₹50 प्लेट</span></div>
+    <div class="item"><span class="item-name">मसाला ताक</span><span class="item-price">₹20 ग्लास</span></div>
+    <div class="item"><span class="item-name">कांदू लस्सी</span><span class="item-price">₹50 ग्लास</span></div>
+    <div class="item"><span class="item-name">शिकरण</span><span class="item-price">₹55 प्लेट</span></div>
+  </div>
+
+  <footer>
+    Thank You, Visit Again!
+  </footer>
+</body>
+</html>
